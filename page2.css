@@ -16,7 +16,7 @@
     flex-direction:row;
     flex-wrap: wrap;
     width:100%;
-    
+
 }
 .column {
     display: flex;
@@ -30,7 +30,7 @@
     border-radius:20px;
     background-color:black;
     text-align: center;
-    
+
 }
 .row2 {
     display: flex;
@@ -65,11 +65,11 @@ img {
 }
 
 .div2 {
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 .div3 {
-    font-size: 40px;  
+    font-size: 40px;
 }
 
 
@@ -78,9 +78,9 @@ img {
     width: 80px;
     text-align: center;
     line-height: 50px;
-    font-size:20px; 
+    font-size:20px;
     flex-grow: 2;
-    
+
 }
 
 
@@ -89,7 +89,7 @@ img {
      font-family: fantasy;
      font-size: 50px;
      line-height: 150px;
-    
+
 }
 
 .h2 {
@@ -97,7 +97,7 @@ img {
     font-family: fantasy;
     font-size: 40px;
     line-height: 10px;
-    
+
 }
 
 a {
@@ -134,14 +134,14 @@ creates the hover effect on the merchandise links
     width: 80px;
     text-align: center;
     line-height: 50px;
-    font-size:20px; 
-    flex-grow: 2; 
+    font-size:20px;
+    flex-grow: 2;
 }
 
 
 #container {
 position: relative;
-width: 50%;  
+width: 50%;
 }
 
 /* Product 1*/
@@ -149,7 +149,7 @@ width: 50%;
 .div3 .btn {
   position: absolute;
   top: 80%;
-  left: 38%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -164,7 +164,7 @@ width: 50%;
 .div3 .btn2 {
   position: absolute;
   top: 80%;
-  left: 39%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -179,7 +179,7 @@ width: 50%;
 .div3 .btn3 {
   position: absolute;
   top: 80%;
-  left: 36%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -195,7 +195,7 @@ width: 50%;
 .div3 .btn4 {
   position: absolute;
   top: 80%;
-  left: 46%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -211,7 +211,7 @@ width: 50%;
 .div3 .btn5 {
   position: absolute;
   top: 80%;
-  left: 43%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -227,7 +227,7 @@ width: 50%;
 .div3 .btn6 {
   position: absolute;
   top: 80%;
-  left: 40%;
+  left: 30%;
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -241,9 +241,6 @@ width: 50%;
 #btn:hover {
     background:black;
 }
-
-
-
 
 .fa {
   border-radius: 50%;
@@ -289,6 +286,3 @@ width: 50%;
   color: white;
   left:55%;
 }
-
-
-
