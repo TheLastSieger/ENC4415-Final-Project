@@ -1,0 +1,294 @@
+
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    background-color: black;
+}
+
+
+.wrapper {
+    margin:15px;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:100%;
+    
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    height:100px;
+    flex: 1;
+    border: 1px solid black;
+    padding:10px;
+    margin:20px;
+    border-radius:20px;
+    background-color:black;
+    text-align: center;
+    
+}
+.row2 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    height:250px;
+    flex: 1;
+    margin:20px;
+    padding:20px;
+}
+
+
+img {
+    border-radius: 5%;
+    width:300px;
+    height:200px;
+}
+
+
+.p {
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.div2 {
+    font-size: 40px; 
+}
+
+.div3 {
+    font-size: 40px;  
+}
+
+
+.flex-container > .div1 {
+    background-color: black;
+    width: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px; 
+    flex-grow: 2;
+    
+}
+
+
+.h1Main {
+     text-align: center;
+     font-family: fantasy;
+     font-size: 50px;
+     line-height: 150px;
+    
+}
+
+.h2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+    line-height: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    background-color: silver;
+    width: 30px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+/*
+creates the hover effect on the merchandise links
+*/
+.column:hover {
+    background-color:silver;
+    padding: 20px;
+    margin:20px;
+    border: 10px solid silver;
+    height: 100%;
+}
+
+
+.flex-container > .divsearch {
+    background-color: white;
+    color:black;
+    width: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px; 
+    flex-grow: 2; 
+}
+
+
+#container {
+position: relative;
+width: 50%;  
+}
+
+/* Product 1*/
+
+.div3 .btn {
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Product 2 */
+
+.div3 .btn2 {
+  position: absolute;
+  top: 80%;
+  left: 39%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button 3*/
+
+.div3 .btn3 {
+  position: absolute;
+  top: 80%;
+  left: 36%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* Button 4*/
+
+.div3 .btn4 {
+  position: absolute;
+  top: 80%;
+  left: 46%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* Button 5*/
+
+.div3 .btn5 {
+  position: absolute;
+  top: 80%;
+  left: 43%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* Button 6*/
+
+.div3 .btn6 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#btn:hover {
+    background:black;
+}
+
+
+
+
+.fa {
+  border-radius: 50%;
+  padding: 20px;
+  width: 20px;
+}
+
+.fa:hover {
+    width:30px;
+    height:30px;
+}
+
+
+/* Facebook */
+.fa-facebook {
+  position:absolute;
+  background: #3B5998;
+  color: white;
+  left:40%;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  position:absolute;
+  background: #3B5998;
+  color: white;
+  left:45%;
+}
+
+/* Youtube */
+.fa-youtube {
+  position:absolute;
+  background: #55ACEE;
+  color: white;
+  left:50%;
+}
+
+/* Instagram */
+.fa-instagram {
+  position:absolute;
+  background: #55ACEE;
+  color: white;
+  left:55%;
+}
+
+
+
